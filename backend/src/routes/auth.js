@@ -51,6 +51,7 @@ router.get('/login/oauth2/code/github', async (req, res) => {
     const githubId = ghUser.id;
     const username = ghUser.login;
 
+
     let user = await User.findOne({ where: { githubId } });
 
     if (user) {
