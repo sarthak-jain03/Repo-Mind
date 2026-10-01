@@ -164,6 +164,7 @@ User Question
 - **GitHub OAuth App** (for authentication)
 - **Fireworks.ai API Key** (for LLM and embeddings)
 
+
 ### 1. Clone the Repository
 
 ```bash
